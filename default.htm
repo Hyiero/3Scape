@@ -289,6 +289,8 @@
             if (document.readyState == "complete") {
                 
                 bridgeworks = init("grid-100.xml", document.getElementById("BwContainer"));
+
+                bridgeworks.TouchHandler = new TouchHandler();
                 
                 listLibrary();
                 
@@ -341,7 +343,7 @@
       <script type="text/javascript" src="./javascripts/hammer.js"></script>
       <script src="./javascripts/hammer.fakemultitouch.js"></script>
       <script src="./javascripts/hammer.showtouches.js"></script>
-      <script src="./javascripts/TestingTouch.js"></script>
+      <script src="javascripts/TouchHandler.js"></script>
 
   </body>
 </html>

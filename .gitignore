@@ -1,6 +1,4 @@
-#Build artifacts
+.svn
+.DS_Store
 .idea/
-
-
-# Project Files#
-.idea/
+web.config
